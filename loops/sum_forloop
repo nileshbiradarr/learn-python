@@ -1,0 +1,9 @@
+Num = int(input("enter the numbers to find sum = "))
+final=0
+for x in range (30):
+    Add=Num%10
+    Num=int(Num/10)
+    final= final+Add
+    if Num==0:
+        print(final)
+        break
