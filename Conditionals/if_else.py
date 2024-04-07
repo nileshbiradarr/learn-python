@@ -3,4 +3,4 @@ a = int (input("enter number  = "))
 if a < 100:
     print ("number is smaller than 100")
 else:
-    print("number is greater than 100")
+    print("number is greater than 100 or equal")
