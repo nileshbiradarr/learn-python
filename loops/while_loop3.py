@@ -1,3 +1,5 @@
+#finding even numbers between two numbers with while loop
+
 first = int(input("enter the first number = "))
 second = int(input("enter the first number = "))
 

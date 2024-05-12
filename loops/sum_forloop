@@ -1,3 +1,5 @@
+#finding the sum of input numbers with for loop
+
 Num = int(input("enter the numbers to find sum = "))
 final=0
 for x in range (30):
