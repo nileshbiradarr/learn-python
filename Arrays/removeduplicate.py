@@ -2,7 +2,7 @@ num = int(input("enter the size of array = "))
 array = []
 
 for x in range (num):
-    array_item= int(input("enter array item = "))
+    array_item=int(input("enter array item = "))
     array.append(array_item)
     
 print(array)

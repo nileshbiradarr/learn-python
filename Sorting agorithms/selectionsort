@@ -1,0 +1,28 @@
+# Selection Sort algorithm in Python
+def selectionSort(array):
+    size = len(array)
+    for s in range(size):
+        min_idx = s
+        for i in range(s + 1, size):
+            # For sorting in ascending order
+            # for minimum element in each loop
+            if array[i] < array[min_idx]:
+                min_idx = i
+        # Arranging min at the correct position
+        (array[s], array[min_idx]) = (array[min_idx], array[s])
+
+# Driver code
+
+data = int(input("Enter the size of the array to sort: "))
+array = []
+
+for x in range(data):
+    item = int(input("Enter array item: "))
+    array.append(item)
+
+print("Original array:", array)
+
+selectionSort(array)
+
+print('Sorted Array in Ascending Order is :')
+print(array)
